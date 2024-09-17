@@ -1,0 +1,7 @@
+//under the hood imagePath is a signal behind scenes
+// imagePath = computed(() => 'assets/users/' + this.selectedUser().avatar);
+
+//getter for dynamic image path
+// get imagePath() {
+//   return 'assets/users/' + this.selectedUser().avatar;
+// }
