@@ -1,0 +1,7 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser'; only in ROOT
+
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common'; 
+alternate of BrowserModule when not being called in root but has dependency
+import { FormsModule } from '@angular/forms';
