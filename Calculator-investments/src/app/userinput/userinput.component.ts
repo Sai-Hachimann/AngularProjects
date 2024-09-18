@@ -3,8 +3,6 @@ import { FormsModule } from '@angular/forms';
 import { InvestmentService } from '../investment.service';
 @Component({
   selector: 'app-userinput',
-  standalone: true,
-  imports: [FormsModule],
   templateUrl: './userinput.component.html',
   styleUrl: './userinput.component.css',
 })
