@@ -12,8 +12,8 @@ export class UserinputComponent {
   @Output() calculate = new EventEmitter<investmentData>();
   enteredInitialInvestment = '0';
   enteredAnnualInvestment = '0';
-  enteredExpectedReturns = '0';
-  enteredDuration = '0';
+  enteredExpectedReturns = '5';
+  enteredDuration = '10';
 
   onSubmit() {
     this.calculate.emit({
