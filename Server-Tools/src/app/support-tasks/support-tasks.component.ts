@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { NewSupportTasksComponent } from './new-support-tasks/new-support-tasks.component';
 
 @Component({
   selector: 'app-support-tasks',
   standalone: true,
-  imports: [],
+  imports: [NewSupportTasksComponent],
   templateUrl: './support-tasks.component.html',
-  styleUrl: './support-tasks.component.css'
+  styleUrl: './support-tasks.component.css',
 })
-export class SupportTasksComponent {
-
-}
+export class SupportTasksComponent {}
