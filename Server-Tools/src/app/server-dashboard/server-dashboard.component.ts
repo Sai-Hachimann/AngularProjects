@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
 export class ServerDashboardComponent {
   // serverStatus = ['online', 'offline', 'unknown'];
   // randomIndex = Math.floor(Math.random() * this.serverStatus.length);
+
   // currentStatus = this.serverStatus[this.randomIndex];
 
   currentStatus: 'online' | 'offline' | 'unknown' = 'offline';
